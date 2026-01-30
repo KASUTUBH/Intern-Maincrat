@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaustubh Wakchoure | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Kaustubh Wakchoure</h1>
+      <p>Web Developer | Designer | Creator</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
 
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Kaustubh Wakchoure. I love building modern, responsive websites and crafting digital experiences that are both functional and visually appealing. My passion lies in combining creativity with technology to deliver impactful solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Project One</h3>
+          <p>A responsive landing page built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="card">
+          <h3>Project Two</h3>
+          <p>An interactive portfolio showcasing animations and transitions.</p>
+        </div>
+        <div class="card">
+          <h3>Project Three</h3>
+          <p>A modern blog layout with clean typography and design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Let's connect! Feel free to reach out for collaborations or opportunities.</p>
+      <a href="mailto:kaustubh@example.com" class="btn">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Kaustubh Wakchoure. All rights reserved.</p>
+  </footer>
+</body>
+</html>
