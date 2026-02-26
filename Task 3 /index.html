@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Task Dashboard</h1>
+
+    <!-- Add Task -->
+    <input type="text" id="newTaskInput" placeholder="Add new task…" />
+    <button id="addTaskBtn">Add Task</button>
+
+    <!-- Search & Filter -->
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Search tasks…" />
+      <select id="statusFilter">
+        <option value="all">All Tasks</option>
+        <option value="completed">Completed</option>
+        <option value="pending">Pending</option>
+      </select>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
